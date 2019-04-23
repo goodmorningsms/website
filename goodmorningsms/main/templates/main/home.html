@@ -1,0 +1,15 @@
+why hello there,
+Dayton is a <b> BIG </b> cap
+
+<!-- This is variable: {{ variable }}
+     <p> and as_p add space
+     Javascript you can import after everything is already rendered
+-->
+<form method="post">
+
+    {% csrf_token %}
+    {{num_form.as_p}}
+    {{zone_form.as_p}}
+    <input type="submit" value="Submit">
+
+</form>

@@ -1,0 +1,9 @@
+SHOW DATABASES
+
+CREATE DATABASE website
+
+CREATE TABLE  phone_nums (id integer AUTO_INCREMENT NOT NULL,
+			timezone varchar(30),
+			 phone varchar(12) NOT NULL, 
+			date_added datetime(6) NOT NULL,
+			PRIMARY KEY (phone));
